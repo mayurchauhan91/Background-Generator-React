@@ -1,21 +1,9 @@
-import React, { useState } from "react";
-// import Body from "./Body";
-// import Heading from "./Heading";
+import React from "react";
 import Main from "./Main";
-// import Footer from "./Footer";
 import "../index.css";
 
 const App = () => {
-  return (
-    <div>
-      {/* <Body /> */}
-      <div className="card text-center">
-        {/* <Heading /> */}
-        <Main />
-        {/* <Footer /> */}
-      </div>
-    </div>
-  );
+  return <Main />;
 };
 
 export default App;

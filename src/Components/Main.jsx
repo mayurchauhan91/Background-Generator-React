@@ -16,7 +16,7 @@ const Main = () => {
     <div
       className="main-body"
       style={{
-        background: "linear-gradient(to right (color1.value + color2.value)",
+        background: `linear-gradient(to right, ${color1}, ${color2})`,
       }}
     >
       <div className="card text-center">
@@ -41,7 +41,7 @@ const Main = () => {
 
           <h5 className="card-title">Pick your color</h5>
           <p className="card-text">
-            linear-gradient(to right, rgb ({color1 + ", " + color2}))
+            linear-gradient(to right, ({color1}), ({color2}))
           </p>
         </div>
         <div className="card-footer text-muted">
