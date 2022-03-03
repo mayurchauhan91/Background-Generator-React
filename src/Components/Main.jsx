@@ -47,6 +47,7 @@ const Main = () => {
         <div className="card-footer text-muted">
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://github.com/mayurchauhan91"
             className=" btn btn-primary"
           >
