@@ -4,7 +4,7 @@
 
 ## This project is created as to understand how DOM works.
 
-![]((https://github.com/mayurchauhan91/Portfolio/blob/master/Image/Project1.png)
+![](https://github.com/mayurchauhan91/Portfolio/blob/master/Image/Project1.png)
 
 Project uses color picker which pickes the color up from the input type color and as you pick the color up the background of your body keeps updating as per the user input.
 
